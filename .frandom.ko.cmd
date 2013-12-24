@@ -1,0 +1,1 @@
+cmd_/home/tweakos/frandom/frandom.ko := /home/tweakos/Toolchain/bin/arm-eabi-ld -EL -r  -T /home/tweakos/HD-ION/scripts/module-common.lds --build-id -T /home/tweakos/HD-ION/scripts/module-common.lds -o /home/tweakos/frandom/frandom.ko /home/tweakos/frandom/frandom.o /home/tweakos/frandom/frandom.mod.o
